@@ -1,9 +1,17 @@
 {
   "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date"
+    "data": [
+      {
+        "id": "int",
+        "type": "string",
+        "attributes": {
+          "title": "string",
+          "views": "int",
+          "published": "boolean",
+          "createdAt": "date"
+        }
+      }
+    ]
   },
   "Comment": {
     "body": "string",
